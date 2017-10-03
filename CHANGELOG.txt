@@ -1,0 +1,73 @@
+
+*vDDoS-1.13.3:
++Fix bug
++Fix Monitor
++Nginx-1.13.3
++Openssl-1.0.2l
++Python-2.7.13
++HTTP status code 200 (All challenge)
+
+*vDDoS-1.13.2:
++Fix bug
++Fix Javascript turn on
++HTTP status code 503 (All challenge)
++Nginx-1.13.2
++Openssl-1.0.2l
++Python-2.7.13
++Set cookie expires (Thu, 31-Dec-37 23:55:55 GMT) (All challenge)
++Monitor maintain statistics data permanently (WebGUI traffic status )
+
+
+*vDDoS-1.13.1:
++Fix bug
++Nginx-1.13.1
++Openssl-1.0.2l
++Python-2.7.13
++TCP/UDP Proxy support
++Monitor module (WebGUI traffic status)
+
+
+*vDDoS-1.13.0:
++Fix bug
++WAF Naxsi
++Nginx-1.13.0
++Openssl-1.0.2l
++Python-2.7.13
++HTTP/2 & Score an "A" (ssllabs.com)
++Obfuscate Deep Javascript (5s+ & high+ Security Mode)
+
+
+*vDDoS-1.12.0:
++Fix bug
++Fix Cookie Path
++Nginx-1.12.0
++Openssl-1.0.2k
++Python-2.7.13
++Captcha update
+
+
+*vDDoS-1.10.2:
++Fix bug
++Fix GET/POST
++Nginx-1.10.2
++Openssl-1.0.2k
++Python-2.7.13
+
+
+*vDDoS-1.10.1:
++Fix bug
++HTTP/2 support
+
+
+
+
+
+
+
+
+
+
+
+
+
+######################################
