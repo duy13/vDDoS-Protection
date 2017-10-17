@@ -1,7 +1,7 @@
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-cce277ec5f540c4f1bd941e929ce3e31  CHANGELOG.txt
-c6b4fe76033e515d662d6ec0aab99756  md5sum.txt
+ed8bf8b7ba87c9f2f436d5258e4dd489  CHANGELOG.txt
+d60f0a3a72d2f8fcebde1a78a98ab83f  md5sum.txt
 df6679d73be9930b68311514dfe1630b  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
@@ -56,3 +56,6 @@ e37943491bca0993d7a9c5d3d9a48e11  vddos-1.13.3-centos7
 079003b193bf48ab009a800a40b2a9d8  vddos-1.13.3-cloudlinux7
 473cefe047cd1fc82cda9fc7d972c650  vddos-1.13.3.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
+572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
+7ebaa2486a3efb0705ef9713d4a8ce7b  html/5s.html.txt
+035d6d24b8f724d46800cf4d6cbe83b9  html/captcha.html.txt
