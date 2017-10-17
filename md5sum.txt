@@ -55,7 +55,6 @@ e37943491bca0993d7a9c5d3d9a48e11  vddos-1.13.3-centos7
 2416f965cb3b39ac996d891bfb7a14bc  vddos-1.13.3-cloudlinux6
 079003b193bf48ab009a800a40b2a9d8  vddos-1.13.3-cloudlinux7
 473cefe047cd1fc82cda9fc7d972c650  vddos-1.13.3.tar.gz
+e486af845a89e4cb131c12fdfc530085  vddos-1.13.6.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
-7ebaa2486a3efb0705ef9713d4a8ce7b  html/5s.html.txt
-035d6d24b8f724d46800cf4d6cbe83b9  html/captcha.html.txt
