@@ -4,10 +4,11 @@ a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 7ebaa2486a3efb0705ef9713d4a8ce7b  html/5s.html.txt
 1c4a2f3773b9c3e12792f016fa4363ad  html/5xx.html.txt
 035d6d24b8f724d46800cf4d6cbe83b9  html/captcha.html.txt
+0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
 ed8bf8b7ba87c9f2f436d5258e4dd489  CHANGELOG.txt
-72e84b84e77c317070475a226922d8eb  md5sum.txt
+15086a77e41ddd2db016608847d81de6  md5sum.txt
 df6679d73be9930b68311514dfe1630b  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
