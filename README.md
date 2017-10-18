@@ -20,16 +20,17 @@ System Requirement
 ```
 yum -y install epel-release 
 yum -y install curl wget gc gcc gcc-c++ pcre-devel zlib-devel make wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel gperftools gperftools-devel libatomic_ops-devel perl-ExtUtils-Embed gcc automake autoconf apr-util-devel gc gcc gcc-c++ pcre-devel zlib-devel make wget openssl openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel gperftools gperftools-devel libatomic_ops-devel perl-ExtUtils-Embed 
-
+yum -y update
+reboot
 ```
 
 ----------
 Install
 -------------
 
-Example Install: System CentOS 7 x86_64 & vDDoS 1.13.3 Version (vddos-1.13.3-centos7):
+Example Install: System CentOS 7 x86_64 & vDDoS 1.13.6 Version (vddos-1.13.6-centos7):
 ```
-curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-1.13.3-centos7 -o /usr/bin/vddos
+curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-1.13.6-centos7 -o /usr/bin/vddos
 chmod 700 /usr/bin/vddos
 /usr/bin/vddos help
 

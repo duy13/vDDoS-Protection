@@ -1,4 +1,15 @@
 
+*vDDoS-1.13.6:
++Fix bug
++Nginx-1.13.6
++Openssl-1.0.2l
++Python-2.7.14
++Additional Invisible reCAPTCHA (captcha+ Security Mode)
++Set cookie expires (Session) (All challenge)
++Additional acme-challenge folder support (acme.sh & Let's Encrypt)
++Custom Error Page (4xx & 5xx HTTP Status)
+
+
 *vDDoS-1.13.3:
 +Fix bug
 +Fix Monitor
@@ -6,6 +17,7 @@
 +Openssl-1.0.2l
 +Python-2.7.13
 +HTTP status code 200 (All challenge)
+
 
 *vDDoS-1.13.2:
 +Fix bug
