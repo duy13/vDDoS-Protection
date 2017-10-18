@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Error 403 Access Denied</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="30">
+<tr>
+<td align="center" valign="center">
+
+<h1 data-translate="challenge_headline" style="background-color: white; border: 0px; color: #404040; font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 5vw; font-stretch: inherit; font-variant-numeric: inherit; font-weight: 300; line-height: 1.2; margin: 0px; padding: 0px; vertical-align: baseline;">
+Error 403</h1>
+
+<noscript>
+<h1 style="text-align:center;color:red;">
+<strong>Please turn JavaScript on and reload the page.</strong>
+</h1>
+</noscript>
+
+<h2 class="cf-subheadline" style="background-color: white; border: 0px; color: #999999; font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 2vw; font-stretch: inherit; font-variant-numeric: inherit; font-weight: 300; line-height: 1.3; margin: 0px; padding: 0px; vertical-align: baseline;">
+<span data-translate="complete_sec_check" style="border: 0px; font-family: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">Access Denied</span></h2>
+
+<img style="max-width:100%;height:auto;" src="https://lh3.googleusercontent.com/-AMnWJhqGrVo/WeY-vEyZY8I/AAAAAAAABto/GL2pQRxUiFsZEVqBEfdEJ3WPpm2RMJuhwCLcBGAs/s900/403-vDDoS.png" />
+
+<h2 class="cf-subheadline" style="background-color: white; border: 0px; color: #999999; font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 2vw; font-stretch: inherit; font-variant-numeric: inherit; font-weight: 300; line-height: 1.3; margin: 0px; padding: 0px; vertical-align: baseline;">
+<span data-translate="complete_sec_check" style="border: 0px; font-family: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">The owner of this website has banned your IP address.</span></h2>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
