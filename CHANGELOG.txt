@@ -1,4 +1,14 @@
 
+*vDDoS-1.13.7:
++Fix bug
++Nginx-1.13.7
++Openssl-1.0.2m
++Python-2.7.14
++Additional Custom Folder /vddos/conf.d/cus
+(Ex: your-domain.com.server.conf & your-domain.com.location.conf)
++Set cookie expires fix (for Microsoft IE & Edge)
+
+
 *vDDoS-1.13.6:
 +Fix bug
 +Nginx-1.13.6
