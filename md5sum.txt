@@ -7,9 +7,9 @@ a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-6f5ee0ca5ec8d25d49adfe2c402511d1  CHANGELOG.txt
-f81e7442551fb124e994da3ecf662d89  md5sum.txt
-7d23a4ef9b543fe02b9ec84cc099496c  README.md
+7dcd1d57cd5f0dc2e657d87c2e09a563  CHANGELOG.txt
+e9753be215d7eaeaf79943f0695ac921  md5sum.txt
+42c37cad567e1405a1f15f97e2c86a8c  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
 3d6600598df1da8793ba17a98814d992  user-agents3.txt
@@ -76,5 +76,12 @@ ab27a985968d72c402995332988ce708  vddos-1.13.7-centos7
 0d229c3f1603bf5f31281f31c832be0b  vddos-1.13.7-cloudlinux6
 d7b579673ea89a58d577dc7dc3f6dad8  vddos-1.13.7-cloudlinux7
 8b630ad04d87ca0cbdad1e0122bbb369  vddos-1.13.7.tar.gz
+637ac7765da813140fbcb5aae41ca661  vddos-1.13.8-centos5
+fffb462ef716e50a44eee58f8c57d7da  vddos-1.13.8-centos6
+4eaf05ece223fa9605bd2ef88f6e76d7  vddos-1.13.8-centos7
+5149dd570d4f624607dfbdd249e20e38  vddos-1.13.8-cloudlinux5
+021e1ea95851c356c9a4eed77c9242ff  vddos-1.13.8-cloudlinux6
+520df1f107f5633360d2197189b466af  vddos-1.13.8-cloudlinux7
+dcfe3a8002c4cf63b445c13f437852d7  vddos-1.13.8.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt

@@ -28,9 +28,9 @@ reboot
 Install
 -------------
 
-Example Install: System CentOS 7 x86_64 & vDDoS 1.13.7 Version (vddos-1.13.7-centos7):
+Example Install: System CentOS 7 x86_64 & vDDoS 1.13.8 Version (vddos-1.13.8-centos7):
 ```
-curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-1.13.7-centos7 -o /usr/bin/vddos
+curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-1.13.8-centos7 -o /usr/bin/vddos
 chmod 700 /usr/bin/vddos
 /usr/bin/vddos help
 
