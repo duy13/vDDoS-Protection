@@ -1,0 +1,7 @@
+# Limit conn
+limit_conn_zone $binary_remote_addr zone=perip:10m;
+limit_conn perip 50;
+limit_conn_status 444;
+limit_req_zone $binary_remote_addr zone=dyn:10m rate=50r/s;
+limit_req zone=dyn burst=50;
+limit_req_status 444;

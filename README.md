@@ -17,6 +17,11 @@ System Requirement
 
 * CentOS Server 5/6/7 x86_64 (http://centos.org)
 * CloudLinux Server 5/6/7 x86_64 (http://cloudlinux.com)
+
+```
+Warning: Since version 1.13.10, vDDoS only supports CentOS Server 7
+```
+
 ```
 yum -y install epel-release 
 yum -y install curl wget gc gcc gcc-c++ pcre-devel zlib-devel make wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel gperftools gperftools-devel libatomic_ops-devel perl-ExtUtils-Embed gcc automake autoconf apr-util-devel gc gcc gcc-c++ pcre-devel zlib-devel make wget openssl openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel gperftools gperftools-devel libatomic_ops-devel perl-ExtUtils-Embed 
@@ -28,14 +33,24 @@ reboot
 Install
 -------------
 
-Example Install: System CentOS 7 x86_64 & vDDoS 1.13.8 Version (vddos-1.13.8-centos7):
+Install **Latest Version**: (System CentOS 7 x86_64 & vDDoS Latest Version)
 ```
-curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-1.13.8-centos7 -o /usr/bin/vddos
+curl -L https://github.com/duy13/vDDoS-Protection/raw/master/latest.sh -o latest.sh
+chmod 700 latest.sh
+bash latest.sh
+
+```
+Or, Choose a **Old Version**:
+```
+vddosversion="1.13.10"
+curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-$vddosversion-centos7 -o /usr/bin/vddos
 chmod 700 /usr/bin/vddos
 /usr/bin/vddos help
 
 /usr/bin/vddos setup
+
 ```
+
 
 ----------
 Using
@@ -80,13 +95,13 @@ default         https://0.0.0.0:443  https://127.0.0.1:8443   no    200      /vd
 ```
 Listen:
 ---------------
-**variable:** *http://0.0.0.0:80, https://0.0.0.0:443, http://123.234.012.321:80*
+**variable:** *http://0.0.0.0:80, https://0.0.0.0:443, http://123.234.012.321:80, https://[::]:443*
 
 Sets IP & Port listen.
 
 Backend:
 ---------------
-**variable:** *http://123.234.012.321:80, https://123.234.012.321:443, http://127.0.0.1:8080*
+**variable:** *http://123.234.012.321:80, https://123.234.012.321:443, http://127.0.0.1:8080, https://[::1]:8443*
 
 Sets Real IP & Port Backend Service.
 

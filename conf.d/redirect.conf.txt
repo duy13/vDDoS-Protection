@@ -1,0 +1,33 @@
+set $schemedomain "${scheme}://${host}"; # Please Do not remove this line!
+
+
+#############################################################################################
+############## Redirect NON-SSL to SSL for your domain: 
+############## (http://your-domain.com to HTTPS://your-domain.com)
+#if ($schemedomain = "http://your-domain.com") {
+#    return 301 https://your-domain.com$request_uri;
+#}
+
+#############################################################################################
+############## Redirect WWW to NON-WWW for your domain: 
+############## (http://WWW.your-domain.com to http://your-domain.com)
+#if ($schemedomain = "http://www.your-domain.com") {
+#    return 301 http://your-domain.com$request_uri;
+#}
+
+#############################################################################################
+############## Redirect DOMAIN to OTHER-DOMAIN for your domain: 
+############## (http://your-domain.COM to http://your-domain.ORG)
+#if ($schemedomain = "http://www.your-domain.com") {
+#    return 301 http://your-domain.org$request_uri;
+#}
+
+#############################################################################################
+############## NON-Security for whitelist directories of your domain: 
+############## (NON-Security for http://your-domain.com/secret/folder)
+#location /secret/folder {
+#	proxy_set_header   Host             $host;
+#	proxy_set_header   X-Real-IP        $remote_addr;
+#	proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+#   proxy_pass      http://72.13.44.113:80;
+#}

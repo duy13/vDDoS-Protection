@@ -1,0 +1,18 @@
+# Example create a backend name "backend1-nonssl" for "website.conf" from 3 server:
+
+#	upstream backend1-nonssl {
+#		least_conn;
+#		ip_hash;
+#		server 204.79.197.200:80 max_fails=3 fail_timeout=5s;
+#		server 107.154.75.41:80 max_fails=3 fail_timeout=5s;
+#		server 104.20.44.114:80 max_fails=3 fail_timeout=5s;
+#	}
+
+# Example create a backend name "backend1-ssl" for "website.conf" from 3 server:
+#	upstream backend1-ssl {
+#		least_conn;
+#		hash $remote_addr$http_user_agent;
+#		server 204.79.197.200:443 max_fails=3 fail_timeout=5s;
+#		server 107.154.75.41:443 max_fails=3 fail_timeout=5s;
+#		server 104.20.44.114:443 max_fails=3 fail_timeout=5s;
+#	}

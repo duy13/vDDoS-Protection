@@ -1,4 +1,14 @@
 
+*vDDoS-1.13.10:
++Fix bug
++Nginx-1.13.10
++Openssl-1.0.2o
++Python-2.7.14
++Obfuscate Deep Javascript vddosw3data.js (5s & 5s+ Security Mode)
++IPv6 SUpport (/vddos/conf.d/cus/vddos.conf)
++Custom cookie name (/vddos/conf.d/cus/vddos.conf)
+
+
 *vDDoS-1.13.8:
 +Fix bug
 +Nginx-1.13.8

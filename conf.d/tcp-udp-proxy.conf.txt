@@ -1,0 +1,37 @@
+#stream {
+#server_traffic_status_zone;
+#geoip_country    /usr/share/GeoIP/GeoIP.dat;
+#server_traffic_status_filter_by_set_key $geoip_country_code country::*;
+#limit_conn_zone $binary_remote_addr zone=ip_addr:10m; # Limit perip
+	
+#### DNS Load-balancing multiple backend:
+#	upstream backend_dns {
+#		hash $remote_addr consistent;
+#		server 8.8.8.8:53 max_fails=3 fail_timeout=5s;
+#		server 8.8.4.4:53 max_fails=3 fail_timeout=5s;
+#   }
+
+
+#### TCP Proxy for Port 53:
+#	server {
+#		listen 0.0.0.0:53;
+#		limit_conn ip_addr 1; 		# Limit perip 1 (conn/s)
+#		proxy_download_rate 100k;	# Limit Download 100 (KB/s)
+#		proxy_upload_rate   100k;	# Limit Upload 100 (KB/s)
+#		proxy_pass backend_dns;		# Reverse proxy to backend_name
+#		server_traffic_status_filter_by_set_key $remote_addr ip_addr::$server_addr:$server_port;
+#	}
+
+
+#### UDP Proxy for Port 53:
+#	server {
+#		listen 0.0.0.0:53 udp;
+#		limit_conn ip_addr 1; 		# Limit perip 1 (conn/s)
+#		proxy_download_rate 100k;	# Limit Download 100 (KB/s)
+#		proxy_upload_rate   100k;	# Limit Upload 100 (KB/s)
+#		proxy_pass backend_dns;		# Reverse proxy to backend_name
+#		server_traffic_status_filter_by_set_key $remote_addr ip_addr::$server_addr:$server_port;
+#	}
+
+
+#}

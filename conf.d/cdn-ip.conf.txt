@@ -1,0 +1,40 @@
+# Cloudflare
+set_real_ip_from 103.21.244.0/22;
+set_real_ip_from 103.22.200.0/22;
+set_real_ip_from 103.31.4.0/22;
+set_real_ip_from 104.16.0.0/12;
+set_real_ip_from 108.162.192.0/18;
+set_real_ip_from 131.0.72.0/22;
+set_real_ip_from 141.101.64.0/18;
+set_real_ip_from 162.158.0.0/15;
+set_real_ip_from 172.64.0.0/13;
+set_real_ip_from 173.245.48.0/20;
+set_real_ip_from 188.114.96.0/20;
+set_real_ip_from 190.93.240.0/20;
+set_real_ip_from 197.234.240.0/22;
+set_real_ip_from 198.41.128.0/17;
+set_real_ip_from 199.27.128.0/21;
+
+
+# Incapsula
+set_real_ip_from 199.83.128.0/21;
+set_real_ip_from 198.143.32.0/19;
+set_real_ip_from 149.126.72.0/21;
+set_real_ip_from 103.28.248.0/22;
+set_real_ip_from 185.11.124.0/22;
+set_real_ip_from 192.230.64.0/18;
+
+
+# Google IPs IPv4
+set_real_ip_from 216.239.32.0/19;
+set_real_ip_from 64.233.160.0/19;
+set_real_ip_from 66.249.80.0/20;
+set_real_ip_from 72.14.192.0/18;
+set_real_ip_from 209.85.128.0/17;
+set_real_ip_from 66.102.0.0/20;
+set_real_ip_from 74.125.0.0/16;
+set_real_ip_from 64.18.0.0/20;
+set_real_ip_from 207.126.144.0/20;
+set_real_ip_from 173.194.0.0/16;
+
+real_ip_header X-Forwarded-For;
