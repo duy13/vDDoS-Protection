@@ -7,6 +7,7 @@
 +Obfuscate Deep Javascript vddosw3data.js (5s & 5s+ Security Mode)
 +IPv6 Support (/vddos/conf.d/cus/vddos.conf)
 +Custom cookie name (/vddos/conf.d/cus/vddos.conf)
++Fix cookie session ($remote_addr instead $http_user_agent)
 
 
 *vDDoS-1.13.8:
