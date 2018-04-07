@@ -55,7 +55,7 @@ aaa3837fedb8098b8a1ab527e2e1eaee  vddos-1.13.10-centos6
 daeb289cf78c9a63336de31742d813f8  vddos-1.13.10-cloudlinux5
 b7873ed74d5c32069c13922c4064f7d0  vddos-1.13.10-cloudlinux6
 3de5b8f0a77a1e9fd0f3b24d35bb18dd  vddos-1.13.10-cloudlinux7
-0497c878a45cc017badd436eb52a103d  vddos-1.13.10.tar.gz
+04490f180d99b3d45c523355209ee109  vddos-1.13.10.tar.gz
 f0017d18cc5ea897df941b1d2b300ec9  vddos-1.13.1-centos5
 e13df00581682f740bfb4a880efdb3bc  vddos-1.13.1-centos6
 aa6bcdbb10bc428cfcf1487825eaa180  vddos-1.13.1-centos7
