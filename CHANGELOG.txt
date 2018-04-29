@@ -1,4 +1,14 @@
 
+*vDDoS-1.14.0:
++Fix bug
++Nginx-1.14.0
++Openssl-1.0.2o
++Python-2.7.14
++Fix PATH reCaptcha Server
++Custom cookie secret (/vddos/conf.d/cus/vddos.conf)
++ECC certificate Support (acme.sh & Let's Encrypt). Please visit https://link.voduy.com/acmesh-ecc
+
+
 *vDDoS-1.13.10:
 +Fix bug
 +Nginx-1.13.10
@@ -35,7 +45,7 @@
 +Python-2.7.14
 +Additional Invisible reCAPTCHA (captcha+ Security Mode)
 +Set cookie expires (Session) (All challenge)
-+Additional acme-challenge folder support (acme.sh & Let's Encrypt)
++Additional acme-challenge folder support (acme.sh & Let's Encrypt). Please visit https://link.voduy.com/acmesh
 +Custom Error Page (4xx & 5xx HTTP Status)
 
 
