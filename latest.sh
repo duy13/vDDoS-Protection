@@ -10,12 +10,12 @@ if [ -f /vddos/vddos ]; then
 	echo 'Install vDDoS Proxy Protection Done!'
 	yum -y install curl zip unzip  >/dev/null 2>&1
 	# Install vDDoS Layer4 Mapping:
-	curl -L https://github.com/duy13/vDDoS-Layer4-Mapping/raw/master/vddos-layer4-mapping -o /usr/bin/vddos-layer4
+	curl -L https://github.com/duy13/vDDoS-Layer4-Mapping/raw/master/vddos-layer4-mapping -o /usr/bin/vddos-layer4 >/dev/null 2>&1
 	chmod 700 /usr/bin/vddos-layer4
 	echo 'Install vDDoS Layer4 Mapping Done!'
 
 	# Install vDDoS Auto Add:
-	curl -L https://github.com/duy13/vDDoS-Auto-Add/archive/master.zip -o vddos-auto-add.zip ; unzip vddos-auto-add.zip ; rm -f vddos-auto-add.zip
+	curl -L https://github.com/duy13/vDDoS-Auto-Add/archive/master.zip -o vddos-auto-add.zip  >/dev/null 2>&1; unzip vddos-auto-add.zip  >/dev/null 2>&1; rm -f vddos-auto-add.zip
 	mv vDDoS-Auto-Add-master /vddos/auto-add
 	chmod 700 /vddos/auto-add/cron.sh; chmod 700 /vddos/auto-add/vddos-add.sh
 	ln -s /vddos/auto-add/vddos-add.sh /usr/bin/vddos-add
@@ -23,7 +23,7 @@ if [ -f /vddos/vddos ]; then
 	echo 'Install vDDoS Auto Add Done!'
 
 	# Install vDDoS Auto Switch:
-	curl -L https://github.com/duy13/vDDoS-Auto-Switch/archive/master.zip -o vddos-auto-switch.zip ; unzip vddos-auto-switch.zip ; rm -f vddos-auto-switch.zip
+	curl -L https://github.com/duy13/vDDoS-Auto-Switch/archive/master.zip -o vddos-auto-switch.zip  >/dev/null 2>&1; unzip vddos-auto-switch.zip  >/dev/null 2>&1; rm -f vddos-auto-switch.zip
 	mv vDDoS-Auto-Switch-master /vddos/auto-switch
 	chmod 700 /vddos/auto-switch/cron.sh; chmod 700 /vddos/auto-switch/vddos-switch.sh
 	ln -s /vddos/auto-switch/cron.sh /usr/bin/vddos-autoswitch
