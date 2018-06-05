@@ -8,7 +8,7 @@ chmod 700 /usr/bin/vddos
 
 if [ -f /vddos/vddos ]; then
 	echo 'Install vDDoS Proxy Protection Done!'
-
+	yum -y install curl zip unzip  >/dev/null 2>&1
 	# Install vDDoS Layer4 Mapping:
 	curl -L https://github.com/duy13/vDDoS-Layer4-Mapping/raw/master/vddos-layer4-mapping -o /usr/bin/vddos-layer4
 	chmod 700 /usr/bin/vddos-layer4
