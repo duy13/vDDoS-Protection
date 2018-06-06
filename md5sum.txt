@@ -14,9 +14,9 @@ a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-e575a54d699e12b7ef78a4382d23bf2e  CHANGELOG.txt
+5eac62f24420d3364dd6b376ef8a9ea6  CHANGELOG.txt
 0968cbfad6a73554e4d4893b108d4184  latest.sh
-6167b94104f11c48b1413282d3ba6666  md5sum.txt
+e703437213a69553341a1ae7f7acafb0  md5sum.txt
 fd06759f21c309f72017ef0f2a6ea848  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt

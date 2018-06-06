@@ -1,4 +1,15 @@
 
+*vDDoS-1.15.0:
++Fix bug
++Nginx-1.15.0
++Openssl-1.0.2o
++Python-3.6.5
++Multiple Python reCaptcha Server
++Support a Global Site/Secret key reCaptcha for all domains /vddos/conf.d/recaptcha.conf (Ex: default, *.your-domain.com)
++Wildcard domain support /vddos/conf.d/website.conf (Ex: *.your-domain.com, *.s1.your-domain.com)
++Javascript Obfuscate Deep Encrypted & Patched loop for /vddos/html/aes.min.js
+
+
 *vDDoS-1.14.0:
 +Fix bug
 +Nginx-1.14.0
