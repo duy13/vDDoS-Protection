@@ -105,5 +105,12 @@ dcfe3a8002c4cf63b445c13f437852d7  vddos-1.13.8.tar.gz
 e264edca416195ec78b2aa0b21dbf283  vddos-1.14.0-cloudlinux6
 b37719575d8579dc055fecf53b548fc0  vddos-1.14.0-cloudlinux7
 0f3d700cf8dc9ecd477614afea7e1a85  vddos-1.14.0.tar.gz
+ae3bb75b6babba7b850c8f8fb6a2ef74  vddos-1.15.0-centos5
+6b98c2725beb2faa356b758807282336  vddos-1.15.0-centos6
+fe93954065d5138203cc6be2d8a756a8  vddos-1.15.0-centos7
+655b7e1d169d92da1870ec530fc23da5  vddos-1.15.0-cloudlinux5
+2d6241c5e869e1320e102de5fd2a0a36  vddos-1.15.0-cloudlinux6
+c35d720d3c82e43ac9141c80fe75eaf2  vddos-1.15.0-cloudlinux7
+5af00670af0d7f898d50625c3b0aa0cb  vddos-1.15.0.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
