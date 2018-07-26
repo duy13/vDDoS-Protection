@@ -4,7 +4,7 @@
 +Nginx-1.15.1
 +Openssl-1.0.2o
 +Python-3.6.6
-+vddos reload support (reload of the configuration without downtime)
+
 
 
 *vDDoS-1.15.0:
