@@ -1,10 +1,19 @@
+*vDDoS-1.15.9:
++Fix bug
++Nginx-1.15.9
++Openssl-1.0.2r
++Python-3.7.2
++Separate independent configuration files for each domain /vddos/conf.d/domain 
+(Ex: Custome 5s.html + captcha.html + errors page; Custome Redirect + WAF + Block + Limit + Whitelist IP... for each domain )
++Support Keep Configuration File (/vddos/conf.d/cus/vddos.conf)
++Count down the line numbers in website.conf (when restart or reload vDDoS)
+
 
 *vDDoS-1.15.1:
 +Fix bug
 +Nginx-1.15.1
 +Openssl-1.0.2o
 +Python-3.6.6
-
 
 
 *vDDoS-1.15.0:
