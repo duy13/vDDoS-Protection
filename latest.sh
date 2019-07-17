@@ -1,7 +1,8 @@
 #!/bin/bash
 # Install vDDoS Proxy Protection:
-latest_version=`curl -L https://raw.githubusercontent.com/duy13/vDDoS-Protection/master/CHANGELOG.txt|grep '*vDDoS-' |awk 'NR==1' |tr -d '*vDDoS-'|tr -d ':'`
-curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-$latest_version-centos7 -o /usr/bin/vddos
+latest_version=`/usr/bin/curl -L https://raw.githubusercontent.com/duy13/vDDoS-Protection/master/CHANGELOG.txt|grep '*vDDoS-' |awk 'NR==1' |tr -d '*vDDoS-'|tr -d ':'`
+/usr/bin/curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-$latest_version-centos7 -o /usr/bin/vddos
+/usr/bin/curl --silent --header "X-Install: vDDoS" https://files.voduy.com/iplog.php
 chmod 700 /usr/bin/vddos
 /usr/bin/vddos help
 /usr/bin/vddos setup
