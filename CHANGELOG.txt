@@ -1,3 +1,17 @@
+*vDDoS-1.17.4
++Fix bug
++Nginx-1.17.4
++Openssl-1.0.2t
++Python-3.7.4
++Fix hash_bucket_size
++Add /vddos/conf.d/cus/http.conf
++Maximum domain name length (tested with domain name 60 characters)
++Minimize I/O processing
++Support reCaptcha v3
++Fix vDDoS URL Monitor random
++Fix Unix Format for all file *.conf
+
+
 *vDDoS-1.15.9:
 +Fix bug
 +Nginx-1.15.9
