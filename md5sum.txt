@@ -132,6 +132,6 @@ a999cbe8a4d904293dd2602a99a9a115  vddos-1.17.4-centos6
 ece580d4261a25a7dc0ea231be1ab0e5  vddos-1.17.4-cloudlinux5
 ca8816baa5b3d9dd7d87f7987c263b93  vddos-1.17.4-cloudlinux6
 5c3ce456f242f8da5d7a0f4b3f934372  vddos-1.17.4-cloudlinux7
-71726c69ad1ba31df361fddb55816195  vddos-1.17.4.tar.gz
+1b02f3bf58e3a712bd46b41bd9362abb  vddos-1.17.4.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
