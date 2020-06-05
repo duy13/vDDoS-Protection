@@ -2,6 +2,21 @@
 # Install vDDoS Proxy Protection:
 latest_version=`/usr/bin/curl -L https://raw.githubusercontent.com/duy13/vDDoS-Protection/master/CHANGELOG.txt|grep '*vDDoS-' |awk 'NR==1' |tr -d '*vDDoS-'|tr -d ':'`
 /usr/bin/curl -L https://github.com/duy13/vDDoS-Protection/raw/master/vddos-$latest_version-centos7 -o /usr/bin/vddos
+
+originhash=`curl -L https://raw.githubusercontent.com/duy13/vDDoS-Protection/master/md5sum.txt --silent | grep "vddos-$latest_version-centos7" |awk 'NR=1 {print $1}'`
+downloadhash=`md5sum /usr/bin/vddos | awk 'NR=1 {print $1}'`
+if [ "$originhash" != "$downloadhash" ]; then
+	echo 'Download vddos-'$latest_version'-centos7 from Github.com failed! Try Downloading from SourceForge.net...'
+	rm -rf /usr/bin/vddos
+	curl -L https://sourceforge.net/projects/vddos-protection/files/vddos-$latest_version-centos7 -o /usr/bin/vddos --silent
+fi
+originhash=`curl -L https://sourceforge.net/projects/vddos-protection/files/md5sum.txt --silent | grep "vddos-$latest_version-centos7" |awk 'NR=1 {print $1}'`
+downloadhash=`md5sum /usr/bin/vddos | awk 'NR=1 {print $1}'`
+if [ "$originhash" != "$downloadhash" ]; then
+	echo 'Download vddos-'$latest_version'-centos7 from SourceForge.net failed! Try Downloading from Files.voduy.com...'
+	rm -rf /usr/bin/vddos
+	curl -L https://files.voduy.com/vDDoS-Proxy-Protection/vddos-$latest_version-centos7 -o /usr/bin/vddos --silent
+fi
 /usr/bin/curl --silent --header "X-Install: vDDoS" https://files.voduy.com/iplog.php
 chmod 700 /usr/bin/vddos
 /usr/bin/vddos help
