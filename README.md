@@ -133,6 +133,11 @@ Sets SSL Public key website for vDDoS.
 Note: Option need for HTTPS Listen.
 
 
+3rd Plugin:
+---------------
+vddos-sensor-plugin: https://github.com/ertugrulturan/vddos-sensor-plugin
+
+
 More Config:
 ---------------
 Document: http://vddos.voduy.com

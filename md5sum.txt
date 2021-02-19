@@ -17,7 +17,7 @@ d172bcc570e0e78087a13025c803e424  ab.zip
 9a56a83ad01ea1f57e716e3906f4ca6c  CHANGELOG.txt
 bbe96c7ea4922af1b5331fd1dffb59e7  latest.sh
 09b3e201247c063eb3a4a15f8ef5d3ee  md5sum.txt
-fd06759f21c309f72017ef0f2a6ea848  README.md
+6c447b43f907b3af5bc166a5424c13b4  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
 3d6600598df1da8793ba17a98814d992  user-agents3.txt
