@@ -32,6 +32,8 @@ chmod 700 /usr/bin/vddos
 /usr/bin/vddos help
 /usr/bin/vddos setup
 
+
+
 if [ -f /vddos/vddos ]; then
 	echo 'Install vDDoS Proxy Protection Done!'
 	yum -y install curl zip unzip  >/dev/null 2>&1
@@ -55,6 +57,9 @@ if [ -f /vddos/vddos ]; then
 	ln -s /vddos/auto-switch/cron.sh /usr/bin/vddos-autoswitch
 	ln -s /vddos/auto-switch/vddos-switch.sh /usr/bin/vddos-switch
 	echo 'Install vDDoS Auto Switch Done!'
+
+
+	acme.sh --set-default-ca  --server  letsencrypt >/dev/null 2>&1
 	exit 0
 else
 	echo 'Install vDDoS Proxy Protection Failed!'
