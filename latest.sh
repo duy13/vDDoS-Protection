@@ -59,7 +59,7 @@ if [ -f /vddos/vddos ]; then
 	echo 'Install vDDoS Auto Switch Done!'
 
 
-	acme.sh --set-default-ca  --server  letsencrypt >/dev/null 2>&1
+	/root/.acme.sh/acme.sh --set-default-ca  --server  letsencrypt >/dev/null 2>&1
 	exit 0
 else
 	echo 'Install vDDoS Proxy Protection Failed!'
