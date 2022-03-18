@@ -1,3 +1,18 @@
+*vDDoS-2.3.3
++Fix bug
++Tengine-2.3.3
++Openssl-1.1.1n
++Python-3.9.6
++Cookie base on IP/Useragent browser
++MASTER/SLAVE Support
++Ubuntu|Debian|CentOS|CloudLinux|AlmaLinux|RockyLinux support
++Integrate with DNS API acme.sh + support wildcard domain (domain.com and *.domain.com)
++Integrate with DNS Alias mode API acme.sh + support wildcard domain (domain.com and *.domain.com)
++Useragent whitelist support (whitelist-useragent.conf)
++Trusted Certificate (1-way and 2-way verification) (ssl-trusted.conf)
++Wss support (wss.conf)
+
+
 *vDDoS-1.19.0
 +Fix bug
 +Nginx-1.19.0

@@ -14,10 +14,10 @@ a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-9a56a83ad01ea1f57e716e3906f4ca6c  CHANGELOG.txt
-665f21fa982a77d5f4b110522f32cb62  latest.sh
-8f6e860a825b568b112518f398e46ad9  md5sum.txt
-6c447b43f907b3af5bc166a5424c13b4  README.md
+2294643e0b1ce76cfd469bbcbb9b0600  CHANGELOG.txt
+cdae186c4b9cf39aa8a5ded3691e1f6c  latest.sh
+619405c110117a15f68a19c85f2bf98e  md5sum.txt
+4f54e8b9b01fbc77ba5fe9c0f514cfd1  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
 3d6600598df1da8793ba17a98814d992  user-agents3.txt
@@ -140,5 +140,6 @@ edbbe59bf80dc56cb51e228d9f15266f  vddos-1.19.0-centos6
 d6fba2ebed8d69cb71c7afb5a936a1dd  vddos-1.19.0-cloudlinux6
 f3ea9443bb0e490687b03a5a607f9e40  vddos-1.19.0-cloudlinux7
 cd8e562454bb28bf6654860e69c3f557  vddos-1.19.0.tar.gz
+d6af911da0ca44bb843fdaf0c980e284  vddos-2.3.3.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
