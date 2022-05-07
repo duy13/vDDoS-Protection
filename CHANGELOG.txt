@@ -3,6 +3,7 @@
 +Tengine-2.3.3
 +Openssl-1.1.1n
 +Python-3.9.6
++Testcookie module update
 +Cookie base on IP/Useragent browser
 +MASTER/SLAVE Support
 +Ubuntu|Debian|CentOS|CloudLinux|AlmaLinux|RockyLinux support
@@ -11,6 +12,16 @@
 +Useragent whitelist support (whitelist-useragent.conf)
 +Trusted Certificate (1-way and 2-way verification) (ssl-trusted.conf)
 +Wss support (wss.conf)
++Whitelist for BotSearchs IPv4/6 ignored "limit-conn" & "challenges" (blacklist-countrycode.conf)
++Whitelist for Country Code ignored "challenges"
++New Geoip update 
++Change name & content "aes.min.js -> min.js" (to avoid misunderstanding the malware file due to Obfuscate Deep Encrypted)
++HTTP status code 202 (All challenge)
++Fix HTTPS recaptcha.net (CentOS > 7, Ubuntu, Debian > 9)
++Update reCaptcha-sitekey & reCaptcha-secretkey for any domains (recaptcha.conf)
++Enable "Acceptcookie=$testcookie_ok" know bypass or not (logs.conf)
++Cookie name random (expand the ability to build "2ayerS" challenge)
+
 
 
 *vDDoS-1.19.0
