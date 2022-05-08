@@ -140,6 +140,6 @@ edbbe59bf80dc56cb51e228d9f15266f  vddos-1.19.0-centos6
 d6fba2ebed8d69cb71c7afb5a936a1dd  vddos-1.19.0-cloudlinux6
 f3ea9443bb0e490687b03a5a607f9e40  vddos-1.19.0-cloudlinux7
 cd8e562454bb28bf6654860e69c3f557  vddos-1.19.0.tar.gz
-d08caf7a4b3e79be8e6425b4d6269383  vddos-2.3.3.tar.gz
+1480a997a57140931a6375909790740b  vddos-2.3.3.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
