@@ -4,7 +4,7 @@
 8a783a168fa581f1ea3e99a4d0623cb3  conf.d/load-balancing.conf.txt
 6041b21b3d9fd7c1424c8ed11a431b55  conf.d/redirect.conf.txt
 49822c1540e9ce033aba68dc7f58ef8d  conf.d/tcp-udp-proxy.conf.txt
-111bf1f2ead364d75f5c8af778e608ec  conf.d/whitelist-botsearch.conf.txt
+605a1d07453b0bbde795cdcac5319672  conf.d/whitelist-botsearch.conf.txt
 a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 85070553bcb6cd9aa4078ed7d3851126  html/404.html.txt
 122c4e3d9aded439def2fb2d5f76f3ce  html/4xx.html.txt
@@ -16,7 +16,7 @@ d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
 f61a7d538d1c1120e175af7c422da44b  CHANGELOG.txt
 0db30cc2386636ddeef84d4f6c1870f7  latest.sh
-1c26a64479c189c18267703433b783cf  md5sum.txt
+94d6cde0844650118575330a320ddcc1  md5sum.txt
 4f54e8b9b01fbc77ba5fe9c0f514cfd1  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt

@@ -1,5 +1,6 @@
-Get Full-List IPv4/6: https://link.voduy.com/whitelist-botsearch
-By default vDDoS will challenge all, set default is "no" and whitelist-bot is "yes"
+# Get Full-List IPv4/6: https://link.voduy.com/whitelist-botsearch
+# By default vDDoS will challenge all, set default is "no" and whitelist-bot is "yes"
+
 default no;
 #1.1.1.1 yes;
 #127.0.0.1 yes;
