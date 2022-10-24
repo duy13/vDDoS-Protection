@@ -48,6 +48,5 @@ if [ -f /vddos/vddos ]; then
 	/root/.acme.sh/acme.sh --set-default-ca  --server  letsencrypt >/dev/null 2>&1
 	exit 0
 else
-	echo 'Install vDDoS Proxy Protection Failed!'
 	exit 1
 fi
