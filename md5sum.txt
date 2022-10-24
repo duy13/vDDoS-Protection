@@ -2,9 +2,10 @@
 75c8b5b91159020a7946f656ae485250  conf.d/cdn-ip.conf.txt
 13b2c632ec45a103ab1d4c2db6285a97  conf.d/limit-conn.conf.txt
 8a783a168fa581f1ea3e99a4d0623cb3  conf.d/load-balancing.conf.txt
+a2a03ee040cad039b0990b4a4044a927  conf.d/md5sum.txt
 6041b21b3d9fd7c1424c8ed11a431b55  conf.d/redirect.conf.txt
 49822c1540e9ce033aba68dc7f58ef8d  conf.d/tcp-udp-proxy.conf.txt
-d717944fe16da6304c9a27f846fae1c2  conf.d/whitelist-botsearch.conf.txt
+d90952bfc690e4a5fbd775c5ef8191b5  conf.d/whitelist-botsearch.conf.txt
 a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 85070553bcb6cd9aa4078ed7d3851126  html/404.html.txt
 122c4e3d9aded439def2fb2d5f76f3ce  html/4xx.html.txt
@@ -14,9 +15,9 @@ a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-f61a7d538d1c1120e175af7c422da44b  CHANGELOG.txt
+9107fa6b04d9995d62b79e9fa4527a14  CHANGELOG.txt
 0db30cc2386636ddeef84d4f6c1870f7  latest.sh
-b5e5d4aa7b282931df742fbbea78ecd3  md5sum.txt
+c1f1b2aa4af7963c2fd690ead2a471bf  md5sum.txt
 4f54e8b9b01fbc77ba5fe9c0f514cfd1  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
@@ -140,6 +141,7 @@ edbbe59bf80dc56cb51e228d9f15266f  vddos-1.19.0-centos6
 d6fba2ebed8d69cb71c7afb5a936a1dd  vddos-1.19.0-cloudlinux6
 f3ea9443bb0e490687b03a5a607f9e40  vddos-1.19.0-cloudlinux7
 cd8e562454bb28bf6654860e69c3f557  vddos-1.19.0.tar.gz
+f84b7f85cc850f4a49e67f6376a5ab29  vddos-2.3.3.1.tar.gz
 1480a997a57140931a6375909790740b  vddos-2.3.3.tar.gz
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt
 572dacb3de82d79ee3532aec8b96b494  vdos.sh.txt
