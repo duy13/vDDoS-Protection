@@ -1,0 +1,20 @@
+#!/bin/bash
+# How to update new Whitelist IP Bot Search & IP Country database:
+# wget https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/Update-Whitelist-IP-Bot-Search.sh.txt -O /root/Update-Whitelist-IP-Bot-Search.sh && echo "12 15 * * 0 root bash /root/Update-Whitelist-IP-Bot-Search.sh" >> /etc/crontab
+# 
+
+sleep $(( $RANDOM % 200 ));
+ipd=`curl -4 http://cpanel.net/showip.cgi`
+curl -L https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/cdn-ip.conf.txt -o /vddos/conf.d/cdn-ip.conf
+curl -L https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/whitelist-botsearch.conf.txt -o /vddos/conf.d/whitelist-botsearch.conf
+# curl -L https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/whitelist-botsearch.conf.prefix-16.txt -o /vddos/conf.d/whitelist-botsearch.conf
+wget https://dl.miyuru.lk/geoip/maxmind/country/maxmind.dat.gz && gunzip maxmind.dat.gz && rm -f /vddos/GeoIP/GeoIP.dat && mv maxmind.dat /vddos/GeoIP/GeoIP.dat
+wget https://dl.miyuru.lk/geoip/maxmind/asn/maxmind4.dat.gz && gunzip maxmind4.dat.gz && rm -f /vddos/GeoIP/GeoIPASN.dat && mv maxmind4.dat /vddos/GeoIP/GeoIPASN.dat
+
+
+echo "
+# Localhost
+$ipd yes;
+" >> /vddos/conf.d/whitelist-botsearch.conf
+
+vddos restart

@@ -1,11 +1,16 @@
 4ab68f10ad72580ab641c73446008b19  conf.d/blacklist-countrycode.conf.txt
-75c8b5b91159020a7946f656ae485250  conf.d/cdn-ip.conf.txt
+85641a6341f0b9ecf1dd813ce46c3780  conf.d/cdn-ip.conf.txt
 13b2c632ec45a103ab1d4c2db6285a97  conf.d/limit-conn.conf.txt
 8a783a168fa581f1ea3e99a4d0623cb3  conf.d/load-balancing.conf.txt
 a2a03ee040cad039b0990b4a4044a927  conf.d/md5sum.txt
 6041b21b3d9fd7c1424c8ed11a431b55  conf.d/redirect.conf.txt
 49822c1540e9ce033aba68dc7f58ef8d  conf.d/tcp-udp-proxy.conf.txt
-8b5dc2f117f88e5b709dd685d57178aa  conf.d/whitelist-botsearch.conf.txt
+b8432e4c721b3ae06dab37f5f4ea9e36  conf.d/Update-Whitelist-IP-Bot-Search.sh.txt
+51f95502f0b9caa2a2dd6599c9d34baf  conf.d/vddos-sensor.sh.wsl
+328d3ed31f416949fa758daf1c4a97d1  conf.d/whitelist-botsearch.conf.prefix-16.txt
+4ffc071b545f872297485567ddac8e19  conf.d/whitelist-botsearch.conf.txt
+61a11e45e85e1721fc06ce1d4e9d2f47  GeoIP/GeoLite2-ASN.zip
+3e0404873281b7cb7aeaef510edfedad  GeoIP/GeoLite2-Country.zip
 a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 85070553bcb6cd9aa4078ed7d3851126  html/404.html.txt
 122c4e3d9aded439def2fb2d5f76f3ce  html/4xx.html.txt
@@ -17,7 +22,7 @@ d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
 9107fa6b04d9995d62b79e9fa4527a14  CHANGELOG.txt
 37155f3c534f132c960cf0ffa798585e  latest.sh
-1e32f33edac48bead3db1d38b1ba5703  md5sum.txt
+6b3e4fcc8a8d92fbc9a33166b8a5fa0d  md5sum.txt
 4f54e8b9b01fbc77ba5fe9c0f514cfd1  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
