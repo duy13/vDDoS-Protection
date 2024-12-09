@@ -9,8 +9,7 @@ curl -L https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/cdn-ip.conf.txt -o
 curl -L https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/whitelist-botsearch.conf.txt -o /vddos/conf.d/whitelist-botsearch.conf
 # curl -L https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/whitelist-botsearch.conf.prefix-16.txt -o /vddos/conf.d/whitelist-botsearch.conf
 wget https://dl.miyuru.lk/geoip/maxmind/country/maxmind.dat.gz && gunzip maxmind.dat.gz && rm -f /vddos/GeoIP/GeoIP.dat && mv maxmind.dat /vddos/GeoIP/GeoIP.dat
-wget https://dl.miyuru.lk/geoip/maxmind/asn/maxmind4.dat.gz && gunzip maxmind4.dat.gz && rm -f /vddos/GeoIP/GeoIPASN.dat && mv maxmind4.dat /vddos/GeoIP/GeoIPASN.dat
-
+wget https://dl.miyuru.lk/geoip/maxmind/asn/maxmind.dat.gz && gunzip maxmind.dat.gz && rm -f /vddos/GeoIP/GeoIPASN.dat && mv maxmind.dat /vddos/GeoIP/GeoIPASN.dat
 
 echo "
 # Localhost

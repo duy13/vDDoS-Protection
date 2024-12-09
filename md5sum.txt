@@ -5,7 +5,7 @@
 a2a03ee040cad039b0990b4a4044a927  conf.d/md5sum.txt
 6041b21b3d9fd7c1424c8ed11a431b55  conf.d/redirect.conf.txt
 49822c1540e9ce033aba68dc7f58ef8d  conf.d/tcp-udp-proxy.conf.txt
-dbe32542a2afb856dad3d100530419c5  conf.d/Update-Whitelist-IP-Bot-Search.sh.txt
+bbd29c87ba0cad6e0ed3ac2c8d759532  conf.d/Update-Whitelist-IP-Bot-Search.sh.txt
 51f95502f0b9caa2a2dd6599c9d34baf  conf.d/vddos-sensor.sh.wsl
 29fdad0183e305f367b8503cbb3e9418  conf.d/whitelist-botsearch.conf.prefix-16.txt
 eba4a29456f92cc8db14d8dd3f0deee6  conf.d/whitelist-botsearch.conf.txt
@@ -22,7 +22,7 @@ d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
 9107fa6b04d9995d62b79e9fa4527a14  CHANGELOG.txt
 37155f3c534f132c960cf0ffa798585e  latest.sh
-bd5823a41b4cf4449db088b35bf05592  md5sum.txt
+f368f4b6428d3e637eb982f4d942e5d5  md5sum.txt
 4f54e8b9b01fbc77ba5fe9c0f514cfd1  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
