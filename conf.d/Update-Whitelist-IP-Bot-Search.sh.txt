@@ -1,6 +1,6 @@
 #!/bin/bash
 # How to update new Whitelist IP Bot Search & IP Country database:
-# wget https://files.voduy.com/vDDoS-Proxy-Protection/conf.d/Update-Whitelist-IP-Bot-Search.sh.txt -O /root/Update-Whitelist-IP-Bot-Search.sh && echo "12 15 * * 0 root bash /root/Update-Whitelist-IP-Bot-Search.sh" >> /etc/crontab
+# wget https://raw.githubusercontent.com/duy13/vDDoS-Protection/master/conf.d/Update-Whitelist-IP-Bot-Search.sh.txt -O /root/Update-Whitelist-IP-Bot-Search.sh && echo "12 15 * * 0 root bash /root/Update-Whitelist-IP-Bot-Search.sh" >> /etc/crontab
 # 
 
 sleep $(( $RANDOM % 200 ));
