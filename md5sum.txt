@@ -20,10 +20,10 @@ a1c2151f4ed66d0c555cb4146b912652  html/403.html.txt
 0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
 d172bcc570e0e78087a13025c803e424  ab.zip
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-9107fa6b04d9995d62b79e9fa4527a14  CHANGELOG.txt
+c2ee6e7365b208aafd2ec479619b91e4  CHANGELOG.txt
 37155f3c534f132c960cf0ffa798585e  latest.sh
-df7331493ae51665b73c43a935d71ba6  md5sum.txt
-4f54e8b9b01fbc77ba5fe9c0f514cfd1  README.md
+f47cb648fafc70830c6f0475eec53448  md5sum.txt
+ea8df3eaa840e32195d909015bd43294  README.md
 9df5529ec4941aa7cf0750f19f46438a  user-agents1.txt
 1c42d83cbc1d5cff8baa5bf22858e029  user-agents2.txt
 3d6600598df1da8793ba17a98814d992  user-agents3.txt

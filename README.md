@@ -15,15 +15,9 @@ Homepage: http://vddos.voduy.com
 System Requirement
 -------------
 
-* CentOS Server 5/6/7/8 x86_64
-* CloudLinux Server 5/6/7/8 x86_64
-* CentOS Stream Server 7/8 x86_64
-* CloudLinux Server 5/6/7/8 x86_64
-* AlmaLinux 8 x86_64
-* RockyLinux 8 x86_64
-* RedHat 5/6/7/8 x86_64
-* Ubuntu Server LTS 18/20 x86_64
-* Debian Server 9/10/11 x86_64
+* CentOS/AlmaLinux/RockyLinux 8/9 x86_64
+* Ubuntu Server LTS 20/22/24 x86_64
+* Debian Server 11/12 x86_64
 
 Install
 -------------
